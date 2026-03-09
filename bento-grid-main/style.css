@@ -1,0 +1,421 @@
+/* font  */
+@font-face {
+  font-family: 'DM Sans';
+  src: url('assets/fonts/static/DMSans-Italic-VariableFont_opsz,wght.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    /* font-size: 1rem; */
+    /* margin: 0; */
+   padding: 40px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+}
+
+/*  Main Grid Section */
+.small-div{
+    display: grid;
+    /*  4 barabar column */
+    grid-template-columns: repeat(4, 1fr);
+    /*  3 rows 1st row mothi baki don sarkhya */
+    grid-template-rows: 210px 70px 70px 170px;
+    gap: 20px;
+    width: 830px;
+    max-width: 1000px;
+    /* background-color: transparent; */
+     background-color: #e1e2ef;
+}
+
+/* / Basic Box Styling */
+.very-small-div{
+    border-radius: 9px;
+    /* padding: 30px; */
+
+}
+
+
+/*  Itha Line vala Formula Use Hoin */
+/* Create Div start */
+.one-div{
+    background-color: hsl(31, 66%, 93%);
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    font-size: 28px;
+    font-weight: 550;
+    letter-spacing: -1px;
+    padding: 20px;
+    padding-top: 47px;
+    border-radius: 9px;
+}
+
+.one-div-img{
+    width: 144px;
+    height: 68px;
+    object-fit: cover;
+    margin-top: 16px;
+}
+
+.one-div-q{
+    color:hsl(256, 67%, 59%) ;
+    
+}
+
+/*  Create div End */
+
+
+/*  Content Start */
+.two-div{
+    background-color: hsl(39, 100%, 71%);
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding: 20px;
+    line-height: 24px;
+    border-radius: 9px;
+}
+
+.two-div-img{
+    height: 128px;
+    width: 126px;
+    object-fit: cover;
+    margin-top: 24px;
+    margin-left: 26px;
+}
+
+/* Content End */
+
+/* Social  start*/
+.three-div{
+    background-color: hsl(256, 67%, 59%);
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    padding: 30px;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.tenx{
+    color: hsl(39, 100%, 71%);
+}
+
+.three-div-img{
+    
+    height: 28px;
+    width: 149px;
+    margin-top: 12px;
+  
+}
+
+.over{
+    font-size: 10px;
+    display: block;
+    opacity: 0.7;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-top: -12px;
+}
+/* Social End */
+
+/* Manage start */
+.four-div{
+    background-color: hsl(0, 0%, 100%);
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+   padding: 20px 0px 20px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 21px;
+}
+
+.four-div-img{
+    height: 41px;
+    width: 166px;
+    object-fit: cover;
+    margin-bottom: 6px;
+}
+
+
+
+/* Manage End */
+
+/*  56 % start */
+.five-div{
+    background-color: hsl(39, 100%, 71%);
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 10px 20px 0px 20px;
+    letter-spacing: -1px;
+}
+
+.five-div-img{
+   height: 56px;
+    width: 152px;
+    margin-top: 13px;
+    object-fit: fill;
+}
+
+/*  56 % end */
+
+/*  Schedule start */
+.six-div{
+    background-color: hsl(255deg 58.82% 77.05%);
+    grid-column: 4 / 5;
+    grid-row: 1 / 4;
+    padding: 20px 0px 20px 20px;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 18px;
+}
+
+.six-div-img{
+    height: 238px;
+    width: 173px;
+   margin-top: 16px;
+    margin-bottom: 10px;
+}
+
+.six-div-text{
+ font-size: 14px;
+    font-weight: 300;
+    opacity: 0.7;
+    
+}
+/* Schedule end */
+
+/* > 56 % start */
+.seven-div{
+    background-color: hsl(0, 0%, 100%);
+    grid-column:2 / 3;
+    grid-row: 4 / 5;
+    font-size: 43px;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.seven-div-img{
+   height: 45px;
+    width: 115px;
+    position: relative;
+    left: 13px;
+    bottom: 9px;
+}
+
+.faster{
+    font-size: 13px;
+    opacity: 0.7;
+    font-weight: 500;
+    position: relative;
+    top: -21px;
+}
+/*  > 56 % End */
+
+.eight-div{
+    background-color: hsl(256, 67%, 59%);
+    grid-column: 3 / 5;
+    grid-row: 4 / 5;
+    padding: 20px;
+    display: flex;
+    
+}
+.eight-div-img{
+    height: 121px;
+    width: 148px;
+}
+
+.eight-div-text{
+   font-size: 28px;
+    color: white;
+    font-weight: 600;
+    line-height: 25px;
+    position: relative;
+    top: 15px;
+}
+
+
+/*  Mobile size */
+@media(max-width:420px){
+    .small-div{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 125px 125px 150px 200px 200px 200px 200px 150px 150px 150px 170px 150px;
+        gap: 10px;
+       width: 375px;
+        max-width: 331px;
+        padding: 0px 10px;
+    }
+
+    .three-div{
+        grid-column: 1 /2;
+        grid-row: 1 / 3;
+        font-size: 37px;
+        padding: 42px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    .four-div{
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+        padding: 29px 11px 10px 10px;
+        font-weight: 500;
+    }
+
+    .four-div-img{
+       height: 41px;
+       width: 291px;
+       object-fit: cover;
+       margin-bottom: 23px;
+    }
+
+    .five-div{
+        grid-column: 1 / 2;
+        grid-row: 4 / 5;
+        font-weight: 500;
+    }
+
+    .five-div-img{
+       height: 136px;
+        width: 184px;
+       
+       
+    }
+
+    /* .six-div{
+        grid-column: 1 / 2;
+        grid-row: 5 / 7;
+    }
+
+
+    .six-div-img{
+        height: 239px;
+        width: 274px;
+       
+    }
+
+    .six-div-text{
+        font-size: 16px;
+         */
+    .six-div {
+        /* Grid settings reset */
+         grid-column: 1 / 2;
+        grid-row: 5 / 7;
+        
+        /* Layout fix */
+        padding: 40px 20px;  
+        text-align: center;  
+        display: flex;      
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.2;   
+    }
+
+    .six-div-img {
+        width: 100%;        
+        max-width: 250px;   
+        height: auto;    
+        margin: 20px 0;      
+    }
+
+    .six-div-text {
+        font-size: 16px;     /* Mobile par 14px thoda chota ho sakta hai */
+        letter-spacing: 0;   /* Text readability badhane ke liye */
+        opacity: 1;          /* Mobile par clarity ke liye opacity full kar sakte hain */
+        max-width: 280px;    /* Taaki text 3-4 lines mein center mein dikhe */
+    }
+
+    .eight-div{
+        grid-column: 1 / 2;
+        grid-row: 7 / 9;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .eight-div-img
+    {
+        height: 150px;
+        width: 150px;
+        object-fit: cover;
+        height: 166px;
+        width: 187px;
+        /* gap: 10px; */
+    }
+
+    .eight-div-text{ 
+        font-size: 32px;
+        color: white;
+        font-weight: 500;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+     
+    .seven-div{
+        grid-column: 1 / 2;
+        grid-row: 9 / 10;
+        display: flex;
+        flex-direction: column;
+        font-size: 36px;
+        font-weight: 500;
+    }
+
+    .faster{
+        font-size: 16px;
+        margin-top: 22px;
+    }
+
+    .one-div{
+        grid-column: 1 / 2;
+        grid-row: 10 / 11;
+        padding: 18px;
+    }
+
+    .one-div-img{
+      width: 134px;
+        height: 67px;
+       object-fit: cover;
+       position: relative;
+        left: 51px;
+        bottom: 7px;
+    }
+
+
+     .two-div{
+        grid-column: 1 / 2;
+        grid-row: 11 / 13;
+        padding: 24px;
+        margin-bottom: 10px;
+    }
+
+    .two-div-img{
+       height: 206px;
+        width: 208px;
+        object-fit: cover;
+        position: relative;
+        left: -24px;
+        bottom: -10px;
+       
+    }
+
+}
